@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #666666;
+}
+.clock-container #clock{
+    font-size: 80px;
+    color: #0ca796;
+    overflow: hidden;
+    text-shadow:  0 0  3px rgba(0,0,0,0.8);
+}
